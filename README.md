@@ -1,11 +1,20 @@
 # txsprider
-txsprider
-#安装步骤
+
+txsprider 蜘蛛程序
+
+### 环境推荐
+> php5.5+
+
+> mysql 5.6+
+
+> 打开rewrite
+
+### 安装步骤
 
 1.创建 txspider数据库(默认编码utf8mb4),并导入 update/txspider.sql
 
 2.在 data目录下创建 conf/database.php 文件,内容如下:
-
+```php
 <?php
 
 return [
@@ -27,7 +36,7 @@ return [
     'prefix'         => 'cmf_',
     "authcode" => 'CviMdXkZ3vUxyJCwNt',
 ];
-
+```
 更改为你的数据库信息
 
 3.把 public目录做为网站根目录,入口文件在 public/index.php
