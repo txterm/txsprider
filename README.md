@@ -1,6 +1,6 @@
-# txsprider
+# txspider
 
-txsprider 蜘蛛程序
+txspider 蜘蛛程序
 
 ### 环境推荐
 > php5.5+
